@@ -1,0 +1,27 @@
+button {
+    margin: 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #fff;
+    padding: 23px 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border: 0px;
+    cursor: pointer;
+  }
+  .green_button {
+    background-color: rgb(6, 172, 0);
+  }
+  .red_button_button {
+    background-color: rgb(221, 52, 66);
+  }
+  .red_button:disabled {
+    background-color: rgb(196, 189, 189);
+    color: black;
+    cursor: not-allowed;
+  }
+  .cart {
+    text-align: center;
+  }
